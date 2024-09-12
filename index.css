@@ -1,0 +1,601 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #003333, #003366);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 40px;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+#navItem1 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem1:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+
+#navItem2 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem2:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+
+#navItem3 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem3:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+#navItem4 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem4:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+#navItem5 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem5:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+#navItem6 {
+  color: black;
+  font-family: "Roboto";
+}
+#navItem6:hover {
+  color: #fff;
+  background: #003333;
+  transition: 0.7s;
+}
+.nav-link:hover {
+  background: #fff;
+  border-radius: 5px;
+}
+.bg-container h4 {
+  font-family: "Roboto";
+  color: #fff;
+}
+.name {
+  font-family: "Roboto";
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 35px;
+  }
+}
+.bg-container p {
+  font-family: "Roboto";
+  color: #fff;
+  font-size: 15px;
+  max-width: 600px;
+}
+.name-span {
+  color: #0fff;
+}
+
+.icons-container {
+  margin-top: 10px;
+}
+
+.icon {
+  border: #0fff 1px solid;
+  padding: 10px;
+  border-radius: 30px;
+  color: #0fff;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  background: #0fff;
+  transition: 0.7s;
+  color: black;
+}
+.button {
+  height: 35px;
+  width: 140px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #0fff;
+  color: #0fff;
+  font-family: "Roboto";
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.7s;
+  box-shadow: 0px 0px 5px 5px #0fff;
+}
+.button:hover {
+  background: #0fff;
+  color: black;
+}
+.image {
+  height: 320px;
+  border-radius: 350px;
+  width: 300px;
+  margin-right: 100px;
+  border-width: 7px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    display: block;
+  }
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details-container {
+  margin-right: 30px;
+}
+.about-container {
+  background-image: linear-gradient(to right, #003333, #003366);
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+}
+@media screen and (min-width: 786px) {
+  .about-container {
+    flex-direction: row;
+  }
+}
+.about-image {
+  height: 250px;
+  width: 240px;
+  border-radius: 300px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.about-description {
+  color: #fff;
+  max-width: 600px;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+.resume-button {
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #0fff;
+  color: #0fff;
+  font-family: "Roboto";
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.7s;
+  box-shadow: 0px 0px 5px 5px #0fff;
+}
+.resume-button:hover {
+  background: #0fff;
+  color: black;
+}
+.skills-container {
+  background-image: linear-gradient(to right, #003333, #003366);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100%;
+}
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .my-skills {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
+.skills-head {
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 600;
+  text-align: center;
+  font-size: 30px;
+}
+.skills-container span {
+  color: #0fff;
+}
+.my-skills h5 {
+  color: #fff;
+  font-family: "Roboto";
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+.tech-skills-container {
+  width: 300px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+.information {
+  margin-bottom: 10px;
+}
+.html-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bar {
+  background: #333;
+  height: 7px;
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 8, 0.25, 1);
+}
+.bar span {
+  height: 8px;
+  background: #0fff;
+  float: left;
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.html-container p {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.html-icon {
+  color: #cc660c;
+}
+.css-icon {
+  color: #0662be;
+}
+.css {
+  width: 80%;
+  animation: css 3s;
+}
+
+.bootstrap {
+  width: 85%;
+  animation: bootstrap 3s;
+}
+
+.bootstrap-icon {
+  color: #0662be;
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 3s;
+}
+
+.javascript-icon {
+  color: #cccc00;
+}
+.nodejs {
+  width: 65%;
+  animation: nodejs 0.3;
+}
+
+.nodejs-icon {
+  color: #00cc00;
+}
+
+.react {
+  width: 60%;
+  animation: react 0.3;
+}
+
+.react-icon {
+  color: #99ccff;
+}
+.python {
+  width: 75%;
+  animation: python 0.3;
+}
+
+.python-icon {
+  color: #cccc00;
+}
+.sqlite {
+  width: 80%;
+  animation: sqlite 0.3;
+}
+
+.sqlite-icon {
+  color: #00994c;
+}
+.professional-skills {
+  width: 300px;
+  padding: 15px;
+}
+.professional-skills-cointainer {
+  width: 100%;
+}
+.creativity {
+  width: 85%;
+  animation: creativity 0.3;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+.skill p {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+.comunication {
+  width: 65%;
+  animation: comunication 0.3;
+}
+
+.problem-solving {
+  width: 80%;
+  animation: problem-solveing 0.3;
+}
+.team-work {
+  width: 85%;
+  animation: team-work 0.3;
+}
+.time-management {
+  width: 85%;
+  animation: time-management 0.3;
+}
+.project-container {
+  background-image: linear-gradient(to right, #003333, #003366);
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .projects-container {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+.project-head {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 30px;
+}
+.project-image {
+  height: 100px;
+  text-align: center;
+}
+.project1 {
+  background-color: transparent;
+  padding: 20px;
+  width: 300px;
+  height: 25%;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0px 0px 10px 10px lightblue;
+}
+.project1:hover {
+  transform: scale(1.1);
+}
+.project2 {
+  background-color: transparent;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  height: 25%;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0px 0px 10px 10px lightblue;
+}
+.project2:hover {
+  transform: scale(1.1);
+}
+.project3 {
+  background-color: transparent;
+  padding: 20px;
+  width: 300px;
+  height: 25%;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0px 0px 10px 10px lightblue;
+}
+.project3:hover {
+  transform: scale(1.1);
+}
+.project-name {
+  color: #fff;
+  font-family: "Roboto";
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.project-description {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 7px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 5px #0fff;
+}
+.read-more-text {
+  display: none;
+}
+.read-more-text--show {
+  display: inline;
+}
+.tech-info {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 600;
+  width: 50%;
+}
+.contact-container {
+  background-image: linear-gradient(to right, #003333, #003366);
+  width: 100%;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+.contact-head {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-head span {
+  color: #0fff;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-info {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.contact-info h6 {
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.contact-description {
+  font-family: "Roboto";
+  color: #fff;
+  font-size: 14px;
+  max-width: 500px;
+}
+.mail-container {
+  display: flex;
+  align-items: center;
+}
+.number-container {
+  display: flex;
+  align-items: center;
+}
+.bottom-icon {
+  color: #0fff;
+  margin-right: 10px;
+}
+.mail-number {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-top: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .input-container {
+    width: 50%;
+  }
+}
+
+.input-text {
+  height: 35px;
+  background-color: #404040;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+  color: #fff;
+  font-family: "Roboto";
+}
+.text-area {
+  background-color: #404040;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #fff;
+}
+.submit-button {
+  height: 35px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #0fff;
+  font-family: "Roboto";
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.7s;
+  box-shadow: 0px 0px 5px 5px #0fff;
+  margin: 10px;
+  border: none;
+  outline: none;
+}
+.submit-button:hover {
+  background: #0fff;
+  color: black;
+}
